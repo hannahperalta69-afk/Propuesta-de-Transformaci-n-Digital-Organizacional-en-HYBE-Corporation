@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Transformación Digital Sostenible en HYBE</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#070707;
+color:white;
+overflow-x:hidden;
+line-height:1.9;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:15px;
+background:rgba(0,0,0,0.85);
+backdrop-filter:blur(10px);
+z-index:1000;
+text-align:center;
+box-shadow:0 0 20px rgba(255,0,140,0.4);
+}
+
+.logo{
+font-size:2rem;
+font-weight:bold;
+letter-spacing:3px;
+color:#ff4fc3;
+margin-bottom:10px;
+text-shadow:0 0 15px #ff00aa;
+}
+
+nav button{
+background:#ff008c;
+border:none;
+padding:12px 18px;
+margin:5px;
+border-radius:50px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:0.4s;
+}
+
+nav button:hover{
+transform:scale(1.08);
+background:#9500ff;
+box-shadow:0 0 20px #ff00aa;
+}
+
+.section{
+min-height:100vh;
+padding:130px 10%;
+display:none;
+background:
+linear-gradient(
+135deg,
+#0a0a0a,
+#180020,
+#250030
+);
+}
+
+.active{
+display:block;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.hero-title{
+font-size:4.5rem;
+text-align:center;
+color:#ff4fc3;
+text-shadow:0 0 25px #ff00aa;
+}
+
+.subtitle{
+text-align:center;
+font-size:1.4rem;
+margin-top:20px;
+color:#f2d7ff;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:25px;
+margin-top:30px;
+backdrop-filter:blur(10px);
+transition:0.5s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,0,140,0.18);
+box-shadow:0 0 25px rgba(255,0,140,0.5);
+}
+
+h2{
+color:#ff4fc3;
+margin-bottom:20px;
+font-size:2.2rem;
+}
+
+h3{
+color:#ffb3e6;
+margin-bottom:15px;
+}
+
+.member-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.member-card{
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:20px;
+transition:0.4s;
+}
+
+.member-card:hover{
+transform:scale(1.05);
+background:rgba(149,0,255,0.25);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:25px;
+background:rgba(0,0,0,0.4);
+}
+
+th,td{
+padding:15px;
+border:1px solid #ff4fc3;
+text-align:left;
+}
+
+th{
+background:#ff008c;
+}
+
+.quote{
+text-align:center;
+font-style:italic;
+font-size:1.3rem;
+margin-top:40px;
+color:#ffd6f4;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:black;
+color:#999;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">💜 HYBE x BTS</div>
+
+<nav>
+<button onclick="showSection(0)">🏠 Inicio</button>
+<button onclick="showSection(1)">📌 Problema</button>
+<button onclick="showSection(2)">🔍 DOFA</button>
+<button onclick="showSection(3)">🎯 Objetivos</button>
+<button onclick="showSection(4)">📋 Plan</button>
+<button onclick="showSection(5)">📊 Seguimiento</button>
+<button onclick="showSection(6)">💜 BTS y ARMY</button>
+<button onclick="showSection(7)">✨ Conclusión</button>
+</nav>
+
+</header>
+
+<!-- INICIO -->
+
+<div class="section active" id="sec0">
+
+<h1 class="hero-title">
+Transformación Digital Sostenible en HYBE
+</h1>
+
+<p class="subtitle">
+BTS y ARMY como agentes de cambio organizacional
+</p>
+
+<div class="card">
+
+<p>
+Este proyecto analiza la transformación digital de HYBE Corporation, empresa líder del entretenimiento global y casa disquera de BTS, desde una perspectiva enfocada en sostenibilidad, responsabilidad social corporativa y gestión del talento humano.
+</p>
+
+<p>
+La propuesta busca comprender cómo las plataformas digitales, la inteligencia artificial y las estrategias de engagement han permitido el crecimiento global de HYBE, pero también han generado problemáticas ambientales y sociales relacionadas con el consumo masivo y la producción excesiva.
+</p>
+
+<p>
+Autores: Hannah Peralta y Juan Pablo Torres.
+</p>
+
+</div>
+
+</div>
+
+<!-- PROBLEMA -->
+
+<div class="section" id="sec1">
+
+<h2>📌 Justificación del Problema</h2>
+
+<div class="card">
+
+<p>
+HYBE ha revolucionado la industria musical mediante plataformas digitales como Weverse y nuevas estrategias de interacción global.
+</p>
+
+<p>
+Sin embargo, este crecimiento tecnológico también ha provocado impactos ambientales relacionados con residuos plásticos, consumo energético y producción masiva de álbumes físicos.
+</p>
+
+<p>
+La investigación busca desarrollar una propuesta sostenible que permita equilibrar innovación digital, sostenibilidad y bienestar organizacional.
+</p>
+
+</div>
+
+</div>
+
+<!-- DOFA -->
+
+<div class="section" id="sec2">
+
+<h2>🔍 Diagnóstico DOFA</h2>
+
+<div class="member-grid">
+
+<div class="member-card">
+<h3>Fortalezas</h3>
+<p>Innovación tecnológica, comunidad ARMY global y liderazgo cultural.</p>
+</div>
+
+<div class="member-card">
+<h3>Debilidades</h3>
+<p>Uso excesivo de plástico y presión sobre artistas y trabajadores.</p>
+</div>
+
+<div class="member-card">
+<h3>Oportunidades</h3>
+<p>Implementar prácticas sostenibles y fortalecer responsabilidad social.</p>
+</div>
+
+<div class="member-card">
+<h3>Amenazas</h3>
+<p>Críticas ambientales, regulaciones ESG y daño reputacional.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- OBJETIVOS -->
+
+<div class="section" id="sec3">
+
+<h2>🎯 Objetivos</h2>
+
+<div class="card">
+
+<p>
+Diseñar una estrategia de transformación digital sostenible para HYBE Corporation integrando innovación, sostenibilidad y participación de BTS y ARMY.
+</p>
+
+</div>
+
+</div>
+
+<!-- PLAN -->
+
+<div class="section" id="sec4">
+
+<h2>📋 Plan de Acción</h2>
+
+<table>
+
+<tr>
+<th>Estrategia</th>
+<th>Actividad</th>
+<th>Tiempo</th>
+</tr>
+
+<tr>
+<td>Digitalización Verde</td>
+<td>Optimización energética y energías renovables</td>
+<td>2026-2027</td>
+</tr>
+
+<tr>
+<td>Álbumes Ecológicos</td>
+<td>Uso de materiales reciclables</td>
+<td>2026</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- SEGUIMIENTO -->
+
+<div class="section" id="sec5">
+
+<h2>📊 Seguimiento</h2>
+
+<div class="card">
+
+<p>
+El proyecto será evaluado mediante indicadores ESG, participación digital y sostenibilidad ambiental.
+</p>
+
+</div>
+
+</div>
+
+<!-- BTS -->
+
+<div class="section" id="sec6">
+
+<h2>💜 BTS y ARMY</h2>
+
+<div class="member-grid">
+
+<div class="member-card">
+<h3>RM</h3>
+<p>Liderazgo y representación global.</p>
+</div>
+
+<div class="member-card">
+<h3>Jin</h3>
+<p>Conexión emocional y empatía.</p>
+</div>
+
+<div class="member-card">
+<h3>SUGA</h3>
+<p>Creatividad y producción musical.</p>
+</div>
+
+<div class="member-card">
+<h3>j-hope</h3>
+<p>Motivación y energía positiva.</p>
+</div>
+
+<div class="member-card">
+<h3>Jimin</h3>
+<p>Sensibilidad artística.</p>
+</div>
+
+<div class="member-card">
+<h3>V</h3>
+<p>Creatividad visual.</p>
+</div>
+
+<div class="member-card">
+<h3>Jungkook</h3>
+<p>Influencia global.</p>
+</div>
+
+<div class="member-card">
+<h3>ARMY 💜</h3>
+<p>Comunidad global activa.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- CONCLUSION -->
+
+<div class="section" id="sec7">
+
+<h2>✨ Conclusión</h2>
+
+<div class="card">
+
+<p>
+La transformación digital debe ir acompañada de sostenibilidad, ética y responsabilidad social.
+</p>
+
+<p>
+HYBE representa un caso importante para comprender cómo las organizaciones pueden equilibrar innovación tecnológica y sostenibilidad corporativa.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+💜 Proyecto académico — Hannah Peralta y Juan Pablo Torres
+
+</footer>
+
+<script>
+
+function showSection(n){
+
+document.querySelectorAll('.section').forEach(sec=>{
+sec.classList.remove('active');
+});
+
+document.getElementById('sec'+n).classList.add('active');
+
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+
+}
+
+</script>
+
+</body>
+</html>
